@@ -1,0 +1,32 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 45vw;
+  border: 2px solid grey;
+
+  .Cell {
+    border: 2px solid grey;
+    background: #ffffff;
+    outline: none;
+    border-radius: 0;
+    color: #000000;
+    font-size: 8vw;
+    padding: 0;
+  }
+}
+
+.Reset {
+  margin-top: 2rem;
+  width: 5rem;
+  height: 3rem;
+  background-color: rgb(39, 81, 208);
+}
+
+.Paragraph {
+  color: #000000;
+  text-align: center;
+}
