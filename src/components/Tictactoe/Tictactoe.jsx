@@ -54,7 +54,7 @@ const Tictactoe = () => {
       <>
         {isGameWon && (
           <h1 className={classes.Paragraph}>{`The winner is ${
-            isPlayer1Turn ? "Player 1" : "Player 2"
+            isPlayer1Turn ? "Player 2" : "Player 1"
           }`}</h1>
         )}
         {resultArr.indexOf(null) !== -1 && !isGameWon && (
